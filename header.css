@@ -2,6 +2,8 @@
   height: 10vh;
   background-color: #eeeff1;
   display: flex;
+  position: sticky;
+  top: 0px;
   flex-direction: row;
   justify-content: space-between;
   padding-left: 7vw;
@@ -38,7 +40,6 @@
 }
 .header__gift {
   background-color: #1b1b1d;
-  color: white;
   padding: 15px 20px;
   border-radius: 25px;
   margin-left: 10px;
@@ -46,29 +47,6 @@
 
 .header__gift:hover {
   background-color: #64646a;
-}
-
-@media (max-width: 992px) {
-  .header {
-    flex-direction: row;
-  }
-
-  .header_nav {
-    justify-content: space-around;
-  }
-  .header__link {
-    justify-content: space-between;
-    width: 80%;
-  }
-
-  .header__botton {
-    width: 20%;
-  }
-
-  .header__gift {
-    padding: 10px 15px;
-    display: none;
-  }
 }
 
 @media (max-width: 768px) {

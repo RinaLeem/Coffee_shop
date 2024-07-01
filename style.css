@@ -1,14 +1,18 @@
 @import url("fonts.css");
 @import url("header.css");
+@import url("preview.css");
 
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
-
+body {
+  margin: 0;
+  background-color: white;
+}
 img {
-  max-width: 100%;
+  max-width: 80vh;
   height: auto;
 }
 svg {
@@ -35,14 +39,10 @@ button {
   margin: 0 auto;
 }
 
-.title {
-  height: 100vh;
-  background-color: #eeeff1;
-}
-
 .info {
-  height: 100vh;
-  background-color: #ffffff;
+  height: 110vh;
+  /* background-color: #ffffff; */
+  background: linear-gradient(#ffffff, #f3f4f5);
 }
 
 .order {
@@ -57,17 +57,22 @@ button {
 
 .contact {
   height: 100vh;
-  background-color: #ffffff;
+  background: linear-gradient(#f3f4f5, #ffffff);
+  /* background-color: #ffffff; */
 }
 
 .footer {
   height: 20vh;
-  background-color: #ffffff;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .container {
     width: 100%;
+    max-width: 992px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
     max-width: 768px;
   }
 }
