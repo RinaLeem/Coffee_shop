@@ -1,0 +1,108 @@
+@import url("fonts.css");
+@import url("header.css");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+svg {
+  width: 80%;
+  fill: #1b1b1d;
+}
+.logo {
+  width: 126px;
+}
+
+button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  font-family: "Jost", sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1240px;
+  padding-inline: 100px;
+  margin: 0 auto;
+}
+
+.title {
+  height: 100vh;
+  background-color: #eeeff1;
+}
+
+.info {
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+.order {
+  height: 100vh;
+  background-color: #f3f4f5;
+}
+
+.review {
+  height: 100vh;
+  background-color: #f3f4f5;
+}
+
+.contact {
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+.footer {
+  height: 20vh;
+  background-color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    max-width: 768px;
+  }
+}
+
+/* body {
+  margin: 0;
+  background-color: white;
+  color: rgb(42, 96, 96);
+  font-family: "CORBEL";
+}
+p {
+  font-size: 20;
+  color: rgb(69, 27, 92);
+}
+h1,
+h2 {
+  margin: 5%;
+  font-size: 50;
+  text-align: center;
+  border-style: dashed;
+}
+a {
+  padding: 20px;
+  padding-left: 10%;
+  color: purple;
+}
+
+a:visited {
+  color: lightslategray;
+}
+a:hover {
+  color: red;
+}
+
+.header {
+  margin-top: 40px;
+  font-size: 30px;
+} */
