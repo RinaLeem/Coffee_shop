@@ -9,7 +9,7 @@
   padding-left: 7vw;
   padding-right: 7vw;
 }
-.header_nav {
+.header__nav {
   width: 50vw;
   display: flex;
   flex-direction: row;
@@ -41,9 +41,9 @@
 }
 .header__gift {
   background-color: #1b1b1d;
-  padding: 15px 20px;
+  padding: 15px 25px;
   border-radius: 25px;
-  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .header__gift:hover {
@@ -55,7 +55,7 @@
     flex-direction: row;
   }
 
-  .header_nav {
+  .header__nav {
     justify-content: space-around;
   }
   .header__link {
