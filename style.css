@@ -40,12 +40,6 @@ button {
   margin: 0 auto;
 }
 
-.info {
-  height: 110vh;
-  /* background-color: #ffffff; */
-  background: linear-gradient(#ffffff, #f3f4f5);
-}
-
 .order {
   height: 100vh;
   background-color: #f3f4f5;

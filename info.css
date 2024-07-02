@@ -1,4 +1,7 @@
 .info {
+  height: 110vh;
+  /* background-color: #ffffff; */
+  background: linear-gradient(#ffffff, #f3f4f5);
 }
 .info__section {
   display: flex;
