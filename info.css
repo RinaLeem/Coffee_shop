@@ -1,5 +1,5 @@
 .info {
-  height: 110vh;
+  height: 140vh;
   /* background-color: #ffffff; */
   background: linear-gradient(#ffffff, #f3f4f5);
 }
@@ -60,6 +60,9 @@
 }
 
 @media (max-width: 992px) {
+  .info {
+    height: 320vh;
+  }
   .info__options {
     flex-direction: column;
   }
@@ -72,4 +75,7 @@
 }
 
 @media (max-width: 768px) {
+  .info {
+    height: 340vh;
+  }
 }
