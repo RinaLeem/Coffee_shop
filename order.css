@@ -1,0 +1,30 @@
+.order {
+  height: 100vh;
+  background-color: #f3f4f5;
+}
+.order__section {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+}
+.order__img {
+  width: 680px;
+}
+.order__info {
+  /* display: flex;
+  flex-direction: column; */
+}
+.order__title {
+}
+.order__text {
+}
+.order__button {
+}
+.order__button:hover {
+}
+
+@media (max-width: 992px) {
+}
+@media (max-width: 768px) {
+}
