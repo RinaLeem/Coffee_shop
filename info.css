@@ -55,3 +55,18 @@
 .info__card-button:hover {
   background-color: #64646a;
 }
+
+@media (max-width: 992px) {
+  .info__options {
+    flex-direction: column;
+  }
+  .info__card-title {
+    text-align: center;
+  }
+  .info__card-text {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+}

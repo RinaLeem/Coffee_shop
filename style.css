@@ -77,38 +77,3 @@ button {
     max-width: 768px;
   }
 }
-
-/* body {
-  margin: 0;
-  background-color: white;
-  color: rgb(42, 96, 96);
-  font-family: "CORBEL";
-}
-p {
-  font-size: 20;
-  color: rgb(69, 27, 92);
-}
-h1,
-h2 {
-  margin: 5%;
-  font-size: 50;
-  text-align: center;
-  border-style: dashed;
-}
-a {
-  padding: 20px;
-  padding-left: 10%;
-  color: purple;
-}
-
-a:visited {
-  color: lightslategray;
-}
-a:hover {
-  color: red;
-}
-
-.header {
-  margin-top: 40px;
-  font-size: 30px;
-} */

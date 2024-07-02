@@ -44,10 +44,25 @@
 .preview__shop {
   background-color: none;
 }
+.preview__shop:hover {
+  color: #64646a;
+}
 
 @media (max-width: 992px) {
   .preview {
     height: 120vh;
+  }
+  .preview__title {
+    text-align: center;
+  }
+  .preview__subtitle {
+    text-align: center;
+  }
+  .preview__buttons {
+    flex-direction: column;
+  }
+  .preview__shop {
+    margin-top: 20px;
   }
 }
 
