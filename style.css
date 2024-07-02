@@ -3,6 +3,7 @@
 @import url("preview.css");
 @import url("info.css");
 @import url("order.css");
+@import url("review.css");
 
 *,
 *::before,
@@ -41,13 +42,7 @@ button {
   margin: 0 auto;
 }
 
-.review {
-  height: 100vh;
-  background-color: #f3f4f5;
-}
-
 .contact {
-  height: 100vh;
   background: linear-gradient(#f3f4f5, #ffffff);
   /* background-color: #ffffff; */
 }
