@@ -1,8 +1,6 @@
 .preview {
-  height: 120vh;
   background-color: #eeeff1;
-}
-.preview {
+  width: 100%;
   padding: 5vh;
   padding-left: 10vh;
   padding-right: 10vh;
@@ -21,6 +19,8 @@
   display: none;
 }
 .preview__info {
+  display: flex;
+  flex-direction: column;
   width: 40vw;
 }
 .preview__title {
@@ -31,6 +31,8 @@
 .preview__buttons {
   display: flex;
   flex-direction: row;
+  align-content: center;
+  margin-bottom: 30px;
 }
 .preview__app {
   background-color: #1b1b1d;
@@ -50,13 +52,13 @@
 
 @media (max-width: 992px) {
   .preview {
-    height: 120vh;
   }
   .preview__title {
     text-align: center;
   }
   .preview__subtitle {
     text-align: center;
+    width: 80%;
   }
   .preview__buttons {
     flex-direction: column;
@@ -68,11 +70,16 @@
 
 @media (max-width: 768px) {
   .preview {
-    height: 170vh;
+    padding: 0;
+    margin: 0;
   }
   .preview__img {
     display: none;
   }
+  .preview__title {
+    padding-top: 20px;
+  }
+
   .preview__info {
     width: 100%;
     align-content: center;
@@ -80,7 +87,7 @@
   }
   .hide__img {
     display: inline;
-    width: 400px;
+    width: 300px;
     height: fit-content;
   }
 }

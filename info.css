@@ -1,5 +1,4 @@
 .info {
-  height: 140vh;
   /* background-color: #ffffff; */
   background: linear-gradient(#ffffff, #f3f4f5);
 }
@@ -62,7 +61,29 @@
 
 @media (max-width: 992px) {
   .info {
-    height: 320vh;
+    padding: 0;
+    margin: 0;
+  }
+  .info__text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .info__section {
+    padding: 0;
+    margin: 0;
+  }
+  .info__card {
+    width: 80%;
+    padding: 0;
+    margin: 0;
+    margin-left: 10%;
+    margin-bottom: 20px;
+  }
+  .info__subtitle {
+    text-align: center;
+    width: 80%;
   }
   .info__options {
     flex-direction: column;
@@ -71,12 +92,13 @@
     text-align: center;
   }
   .info__card-text {
+    width: 80%;
+    margin-left: 10%;
     text-align: center;
   }
 }
 
 @media (max-width: 768px) {
   .info {
-    height: 340vh;
   }
 }

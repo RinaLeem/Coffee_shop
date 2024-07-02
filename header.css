@@ -58,6 +58,9 @@
   .header__botton {
     width: 30vw;
   }
+  .header__nav {
+    text-align: center;
+  }
 }
 
 @media (max-width: 768px) {
