@@ -1,5 +1,5 @@
 .order {
-  height: 100vh;
+  height: 80vh;
   background-color: #f3f4f5;
 }
 .order__section {
@@ -18,13 +18,14 @@
   margin-right: 100px;
 }
 .order__title {
+  margin: 0px;
 }
 .order__text {
 }
 .order__button {
   margin-top: 40px;
   background-color: #1b1b1d;
-  padding: 15px 25px;
+  padding: 15px 30px;
   border-radius: 25px;
   margin-right: 10px;
   margin-bottom: 4vh;
