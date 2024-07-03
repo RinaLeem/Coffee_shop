@@ -114,9 +114,12 @@ a:hover {
   color: #64646a;
   font-size: 30px;
 }
-.contact__link {
+.contact__find {
   color: #1b1b1d;
   font-size: 18px;
+}
+.contact__find:hover {
+  color: #64646a;
 }
 .contact__email {
   color: #64646a;

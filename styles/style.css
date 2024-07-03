@@ -16,8 +16,8 @@ body {
   background-color: white;
 }
 img {
-  max-width: 80vh;
-  height: auto;
+  max-width: 1000px;
+  height: fit-content;
 }
 svg {
   width: 80%;
