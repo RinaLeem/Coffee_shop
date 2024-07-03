@@ -10,6 +10,9 @@
   padding-right: 7vw;
   z-index: 1;
 }
+.header__logo {
+  padding: 10px;
+}
 .header__nav {
   width: 50vw;
   display: flex;

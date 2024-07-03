@@ -4,6 +4,7 @@
 @import url("info.css");
 @import url("order.css");
 @import url("review.css");
+@import url("contact.css");
 
 *,
 *::before,
@@ -24,6 +25,7 @@ svg {
 }
 .logo {
   width: 126px;
+  height: fit-content;
 }
 
 button {
@@ -40,11 +42,6 @@ button {
   max-width: 1240px;
   padding-inline: 100px;
   margin: 0 auto;
-}
-
-.contact {
-  background: linear-gradient(#f3f4f5, #ffffff);
-  /* background-color: #ffffff; */
 }
 
 .footer {
