@@ -2,16 +2,31 @@
   background: linear-gradient(#f3f4f5, #ffffff);
 }
 .contact__section {
+  margin: 0;
+  padding: 0;
+  padding-left: 7vw;
+  padding-right: 7vw;
 }
 .contact__up {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .contact__info {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
 }
 .contact__logo {
+  width: 300px;
+  height: fit-content;
 }
 .contact__text {
 }
 .contact__contact {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
 }
 .contact__title {
 }
