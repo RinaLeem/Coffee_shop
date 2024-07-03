@@ -9,12 +9,13 @@ body {
 a {
   color: #1b1b1d;
   text-decoration: none;
-  font-weight: bold;
 }
 a:hover {
   color: #64646a;
 }
 .header__link {
+  font-weight: bold;
+
   font-size: 15px;
 }
 .header__gift {
@@ -138,6 +139,9 @@ a:hover {
 .footer__links {
   color: #64646a;
   font-size: 22px;
+}
+.footer__link {
+  color: #64646a;
 }
 
 @media (max-width: 992px) {

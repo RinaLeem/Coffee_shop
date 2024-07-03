@@ -23,14 +23,14 @@
       <img src="/src/logo.png" class="logo header__logo">
       <div class="header__nav">
         <div class="header__link">
-          <a href="#" target="_blank">Cafe Menu </a>
-          <a href="#" target="_blank">About Us </a>
-          <a href="#" target="_blank">Find us </a>
-          <a href="#" target="_blank">Alowishus Catering </a>
+          <a href="#menu" >Cafe Menu </a>
+          <a href="#about" >About Us </a>
+          <a href="#find" >Find us </a>
+          <a href="#catering" >Alowishus Catering </a>
         </div>
 
         <div class="header__botton">
-          <button class="botton header__cart">
+          <button class="botton header__cart" onclick="callback()">
             <svg
               class="header__cart-cvg"
               viewBox="0 0 24 24"
@@ -41,12 +41,12 @@
               />
             </svg>
           </button>
-          <button class="botton header__gift">BUY GIFT VOUCHERS</button>
+          <button class="botton header__gift" onclick="callback()">BUY GIFT VOUCHERS</button>
         </div>
       </div>
     </header>
 
-    <section class="preview">
+    <section class="preview" id="menu">
       <div class="conteiner">
         <div class="preview__section">
           <div class="preview__info">
@@ -61,8 +61,8 @@
               our delicious coffee’s.
             </p>
             <div class="preview__buttons">
-              <button class="button preview__app">DOWNLOAD APP</button>
-              <button class="button preview__shop">SHOP COFFEE</button>
+              <button class="button preview__app" onclick="callback()">DOWNLOAD APP</button>
+              <button class="button preview__shop" onclick="callback()">SHOP COFFEE</button>
             </div>
           </div>
           <img src="./src/cup.png" alt="Image of cup" class="preview__img" />
@@ -70,7 +70,7 @@
       </div>
     </section>
 
-    <section class="info">
+    <section class="info" id="catering">
       <div class="conteiner">
         <div class="info__section">
           <div class="info__text">
@@ -116,7 +116,7 @@
                     </clipPath>
                   </defs>
                 </svg>
-                <button class="info__card-button">ORDER CATHERING</button>
+                <button class="button info__card-button" onclick="callback()">ORDER CATHERING</button>
               </div>
             </div>
 
@@ -158,7 +158,7 @@
                     </clipPath>
                   </defs>
                 </svg>
-                <button class="info__card-button">FOOD MENU</button>
+                <button class="info__card-button" onclick="callback()">FOOD MENU</button>
               </div>
             </div>
 
@@ -188,7 +188,7 @@
                     </clipPath>
                   </defs>
                 </svg>
-                <button class="info__card-button">DISCOVER MORE</button>
+                <button class="info__card-button" onclick="callback()">DISCOVER MORE</button>
               </div>
             </div>
           </div>
@@ -212,13 +212,13 @@
               amet sint. Velit officia consequat duis enim velit mollit.
               Exercitation veniam consequat sunt nostrud amet.
             </p>
-            <button class="button order__button">ORDER NOW</button>
+            <button class="button order__button" onclick="callback()">ORDER NOW</button>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="review">
+    <section class="review" id="about">
       <div class="conteiner">
         <div class="review__section">
           <div class="review__head">
@@ -327,7 +327,7 @@
     </section>
 
 
-    <section class="contact">
+    <section class="contact" id="find">
       <div class="conteiner">
         <div class="contact__section">
           <div class="contact__card">
@@ -338,18 +338,18 @@
             <div class="contact__contact">
               <p class="contact__title">Contact Alowishus!</p>
               <div class="contact__pair">
-                <button class="contact__link-button"><img class="contact__img" src="/src/em.png"></button>
+                <button class="button contact__link-button" onclick="redirect()"><img class="contact__img" src="/src/em.png"></button>
                 <p class="contact__line">alowishus@gmai.com</p>
               </div>
               <div class="contact__pair">
-                <button class="contact__link-button"><img class="contact__img" src="/src/ph.png"></button>                 
+                <button class="button contact__link-button" onclick="redirect()"><img class="contact__img" src="/src/ph.png"></button>                 
                 <p class="contact__line">+110 214 214 2451</p>
               </div>
               <div class="contact__pair contact__links">
-                <button class="contact__link-button"><img class="contact__img" src="/src/fb.png"></button>
-                <button class="contact__link-button"><img class="contact__img" src="/src/it.png"></button>
-                <button class="contact__link-button"><img class="contact__img" src="/src/tw.png"></button>
-                <button class="contact__link-button"><img class="contact__img" src="/src/in.png"></button>
+                <button class="button contact__link-button" onclick="redirect()"><img class="contact__img" src="/src/fb.png"></button>
+                <button class="button contact__link-button" onclick="redirect()"><img class="contact__img" src="/src/it.png"></button>
+                <button class="button contact__link-button" onclick="redirect()"><img class="contact__img" src="/src/tw.png"></button>
+                <button class="button contact__link-button" onclick="redirect()"><img class="contact__img" src="/src/in.png"></button>
               </div>
             </div>
           </div>
@@ -358,14 +358,14 @@
               <p class="contact__title">Store Locations</p>
               <p class="contact__text">Find your nearest Alowishus store with opening hours, location and contact details.</p>
               <div class="contact__find">
-                <a class="contact__link">FIND MY ALOWISHUS</a> 
+                <a class="contact__link" href="#">FIND MY ALOWISHUS</a> 
                 <img src="/src/arrow.png">
               </div>
             </div>
             <div class="contact__contact">
               <p class="contact__title">First One’s On Us!</p>
               <input type="email" placeholder="E-mail" class="contact__email">
-              <button class="contact__button">SUBCRIBE</button>
+              <button class="contact__button" onclick="redirect()">SUBCRIBE</button>
             </div>
           </div>
         </div>
@@ -377,7 +377,7 @@
         <div class="footer__section">
             <p class="footer__sign">Copytright © 2022 <b>Alowishus Delicious</b></p>
           <div class="footer__links">
-            <a href="#">Terms of Use </a> | <a href="#"> Privacy Policy</a>
+            <a href="#" class="footer__link" target="_blank">Terms of Use </a> | <a href="#" class="footer__link" target="_blank"> Privacy Policy</a>
           </div>
         </div>
       </div>
