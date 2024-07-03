@@ -44,10 +44,6 @@ button {
   margin: 0 auto;
 }
 
-.footer {
-  height: 20vh;
-}
-
 @media (max-width: 992px) {
   .container {
     width: 100%;

@@ -25,6 +25,7 @@
 }
 .contact__text {
   margin: 0;
+  margin-bottom: 20px;
 }
 .contact__contact {
   width: 400px;
@@ -87,6 +88,34 @@
 }
 
 @media (max-width: 992px) {
+  .contact__card {
+    flex-direction: column;
+  }
+  .contact__info {
+    width: 100%;
+  }
+  .contact__contact {
+    width: 100%;
+  }
 }
 @media (max-width: 768px) {
+  .contact__logo {
+    width: 200px;
+  }
+  .contact__img {
+    width: 40px;
+    height: 40px;
+  }
+  .contact__link-button {
+    width: 40px;
+    height: 40px;
+  }
+  .contact__pair {
+    margin: 0;
+    padding: 0;
+  }
+  .contact__email {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
 }
