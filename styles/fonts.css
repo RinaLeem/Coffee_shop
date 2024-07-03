@@ -19,36 +19,58 @@ a:hover {
 .header__gift {
   color: white;
 }
+
 .preview__app {
   color: white;
   font-size: 18px;
 }
 .preview__shop {
   text-decoration: underline;
-  font-weight: bolder;
   font-size: 18px;
+  font-weight: bold;
+  color: #1b1b1d;
 }
 .preview__title {
   font-size: 124px;
+  font-weight: bold;
+  color: #1b1b1d;
+}
+.preview__subtitle {
+  font-size: 24px;
+  color: #64646a;
 }
 
 .info__title {
   font-size: 64px;
+  font-weight: bold;
+  color: #1b1b1b;
 }
 .info__subtitle {
   font-size: 24px;
+  color: #64646a;
 }
 .info__card-button {
   font-size: 18px;
-
   color: white;
+}
+.info__card-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #1b1b1b;
+}
+.info__card-text {
+  font-size: 24px;
+  color: #64646a;
 }
 
 .order__title {
   font-size: 64px;
+  font-weight: bold;
+  color: #1b1b1b;
 }
 .order__text {
   font-size: 24px;
+  color: #64646a;
 }
 .order__button {
   font-size: 18px;
@@ -57,17 +79,22 @@ a:hover {
 
 .review__title {
   font-size: 60px;
+  font-weight: bold;
+  color: #1b1b1b;
 }
 .review__name {
   font-weight: bold;
   font-size: 24px;
+  color: #1b1b1b;
 }
 .review__text {
   font-size: 20px;
+  color: #1b1b1b;
 }
 .review__mark {
   font-size: 40px;
   font-weight: bold;
+  color: #1b1b1b;
 }
 .review__comment {
   font-size: 20px;
