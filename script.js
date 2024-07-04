@@ -15,6 +15,7 @@ const callback = () => {
 const redirect = () => {
   alert("Bye!");
 };
+
 const button = document.getElementsByClassName("button");
 button.addEventListener("click", callback);
 
