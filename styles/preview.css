@@ -44,7 +44,7 @@
   background-color: #64646a;
 }
 .preview__shop {
-  background-color: none;
+  background-color: rgba(255, 255, 255, 0);
 }
 .preview__shop:hover {
   color: #64646a;
