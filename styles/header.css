@@ -64,6 +64,7 @@
   }
   .header__nav {
     text-align: center;
+    width: 60vw;
   }
 }
 
